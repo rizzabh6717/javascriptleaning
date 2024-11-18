@@ -37,8 +37,91 @@
 // console.log(loginUserMessage("rishabh"))
 // console.log(loginUserMessage("rishabh"))
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// function calculate(...num1){             //gives ana array  rest op
+//     return num1;
+// }
+// console.log(calculate(200,300,400));
 
-function calculate(num1){
-    return num1;
-}
-console.log(calculate(2));
+// const user = {
+//     username: "hitesh",
+//     price: 199
+// }
+
+// function handleObject(anyobject){
+//     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+// }
+
+//  //handleObject(user)
+// handleObject({username:"rishabh",  price:100})
+
+// const arr=[100,200,300,400]
+// function printarray(array)
+// {
+//     console.log(`numbers are ${array}`)
+// }
+// printarray(arr)
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//this is  object.
+// const user = {
+//     username: "rishabh",,
+
+//     welcomeMessage: function() {                               // we can declare a function like this welcomemessage is a function
+//         console.log(`${this.username} , welcome to website`);
+        
+//     }
+
+// }
+// user.welcomeMessage()
+
+
+// function chai(){
+//     let username = "rishabh"
+//     console.log(this.username);
+// }
+
+// chai()
+
+// const chai = function () {
+//     let username = "hitesh"
+//     console.log(this.username);
+// }
+
+// const chai =  () => {                              //ARrow funtions type
+//     let username = "rishabh"
+//     console.log(this);
+// }
+
+
+// chai()
+
+// const addTwo = (num1, num2) => {                    //for curly {} we need to write return 
+//     return num1 + num2
+// }
+
+ //const addTwo = (num1, num2) =>  num1 + num2
+
+ const addTwo = (num1, num2) => ( num1 + num2 )
+
+//const addTwo = (num1, num2) => ({username: "rishabh"})
+
+
+console.log(addTwo(3, 4))
+
+
+
+
+// Immediately Invoked Function Expressions (IIFE)
+
+
+(function chai(){
+    // named IIFE
+    console.log(`DB CONNECTED`);
+})();
+
+( (name) => {
+    console.log(`DB CONNECTED TWO ${name}`);
+} )('rishabh')
