@@ -23,18 +23,18 @@ console.log(arr)  //  changed
 const arr1 =["ironman","hulk","hawk"]
 const arr2 =["superman","batman","flash"]
 
- //arr1.push(arr2)   //array into another array
+//arr1.push(arr2)   //array into another array
 //console.log(arr1)
-//const arr3=arr1.concat(arr2)
-//console.log(arr3)
+const arr3=arr1.concat(arr2)
+console.log(arr3)
 
-//console.log(Array.isArray(arr1))
+console.log(Array.isArray(arr1))
 
-const arr4=Array.from("rishabh")
-console.log(arr4)
-let score1=100
-let score2=200
-let score3=300
-const arr5=Array.of(score1,score2,score3)
-console.log(arr5)
+//const arr4=Array.from("rishabh")
+//console.log(arr4)
+//let score1=100
+//let score2=200
+//let score3=300
+//const arr5=Array.of(score1,score2,score3)
+//console.log(arr5)
 
