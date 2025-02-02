@@ -38,7 +38,7 @@
 // console.log(loginUserMessage("rishabh"))
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-// function calculate(...num1){             //gives ana array  rest op
+// function calculate(...num1){             //gives ana array  rest operator (...)
 //     return num1;
 // }
 // console.log(calculate(200,300,400));
